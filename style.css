@@ -1,0 +1,174 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url(drf.jpg);
+    color: #333;
+    padding: 10px;
+}
+img{
+    display: flex;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#accueil{
+    margin: auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    color: orangered;
+    margin: 20px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    gap: 10px; 
+}
+footer > div {
+    text-align: left; 
+}
+footer #photo {
+    text-align: left;
+    font-style: normal;
+}
+footer h2{
+    color: white;
+}
+footer #partenaires {
+    text-align: center;
+    color: white;
+}
+footer address {
+    text-align: right;
+    font-style: normal;
+}
+footer img {
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#photo{
+    color: white;
+}
+h2{
+    color: white;
+}
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+main{
+    background-position: 60cm;
+    color: white;
+}
+#icone img{
+    height: 50px;
+    width: 50px;
+}
+aside h2{
+    color: white;
+}
+aside img{
+    height: 250px;
+    width: 250px;
+}
+aside{
+    background-color: orangered;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+aside p{
+    margin: 20px;
+}
+aside article{
+    text-align: justify;
+}
+article{
+    margin-right: 30px;
+}
+aside,aside #icone{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+address{
+    position: absolute;
+    right: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table th {
+    background-color: orangered;
+    color: white;
+}
+table tr{
+    color: white;
+}
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form input, form select, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input[type="submit"] {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#logements img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#logements {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+h6{
+    color: white;
+}
+#gb{
+    color: white;
+}
